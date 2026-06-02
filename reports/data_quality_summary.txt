@@ -1,0 +1,29 @@
+DATA QUALITY SUMMARY
+
+1. Total schemes in fund_master.csv: 40
+
+2. Total unique AMFI codes in fund_master.csv: 40
+
+3. Total unique AMFI codes in nav_history.csv: 40
+
+4. Validation Result:
+All AMFI codes present in fund_master.csv exist in nav_history.csv.
+
+5. Categories Found:
+- Equity
+- Debt
+
+6. Total Fund Houses:
+10
+
+7. Risk Categories:
+- Low
+- Moderate
+- High
+- Moderately High
+- Very High
+
+8. Data Quality Status:
+No missing AMFI codes detected.
+Dataset consistency verified.
+Data is ready for analysis.
