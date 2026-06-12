@@ -1,3 +1,10 @@
+"""
+Clean Portfolio Holdings Dataset.
+This script prepares scheme holdings data by correcting types and removing invalid entries.
+Input source: data/raw/09_portfolio_holdings.csv.
+Output generated: data/processed/portfolio_holdings_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

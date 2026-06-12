@@ -1,3 +1,10 @@
+"""
+Clean Fund Master Dataset.
+This script standardizes and validates the raw fund master source for analytics readiness.
+Input source: data/raw/01_fund_master.csv.
+Output generated: data/processed/fund_master_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

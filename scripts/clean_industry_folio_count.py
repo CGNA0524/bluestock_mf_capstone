@@ -1,3 +1,10 @@
+"""
+Clean Industry Folio Count Dataset.
+This script converts folio trend fields to analytic types and validates business constraints.
+Input source: data/raw/06_industry_folio_count.csv.
+Output generated: data/processed/industry_folio_count_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

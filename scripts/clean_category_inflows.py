@@ -1,3 +1,10 @@
+"""
+Clean Category Inflows Dataset.
+This script standardizes monthly category inflow data and removes low-quality records.
+Input source: data/raw/05_category_inflows.csv.
+Output generated: data/processed/category_inflows_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

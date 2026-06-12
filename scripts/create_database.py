@@ -1,3 +1,10 @@
+"""
+Build Analytics SQLite Database.
+This script creates dimensional and fact tables from cleaned mutual fund datasets.
+Input sources: data/processed/*_clean.csv files used for funds, NAV, transactions, and performance.
+Output generated: data/db/bluestock_mf.db.
+"""
+
 import pandas as pd
 from sqlalchemy import create_engine
 

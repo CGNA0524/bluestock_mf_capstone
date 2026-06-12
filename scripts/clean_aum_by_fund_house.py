@@ -1,3 +1,10 @@
+"""
+Clean AUM by Fund House Dataset.
+This script prepares AMC-level AUM records through type normalization and quality checks.
+Input source: data/raw/03_aum_by_fund_house.csv.
+Output generated: data/processed/aum_by_fund_house_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

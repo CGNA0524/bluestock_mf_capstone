@@ -1,3 +1,10 @@
+"""
+Clean NAV History Dataset.
+This script sorts, deduplicates, and validates scheme-level NAV time series records.
+Input source: data/raw/02_nav_history.csv.
+Output generated: data/processed/nav_history_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

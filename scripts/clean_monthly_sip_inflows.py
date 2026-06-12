@@ -1,3 +1,10 @@
+"""
+Clean Monthly SIP Inflows Dataset.
+This script formats SIP monthly metrics and enforces numeric consistency for analysis.
+Input source: data/raw/04_monthly_sip_inflows.csv.
+Output generated: data/processed/monthly_sip_inflows_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

@@ -1,3 +1,10 @@
+"""
+Clean Scheme Performance Dataset.
+This script normalizes return and risk metrics and filters invalid performance rows.
+Input source: data/raw/07_scheme_performance.csv.
+Output generated: data/processed/scheme_performance_clean.csv.
+"""
+
 import pandas as pd
 
 perf = pd.read_csv(

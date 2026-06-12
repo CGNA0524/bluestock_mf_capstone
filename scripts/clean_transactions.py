@@ -1,3 +1,10 @@
+"""
+Clean Investor Transactions Dataset.
+This script standardizes transaction records and validates amount and KYC quality fields.
+Input source: data/raw/08_investor_transactions.csv.
+Output generated: data/processed/investor_transactions_clean.csv.
+"""
+
 import pandas as pd
 
 tx = pd.read_csv(

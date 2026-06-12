@@ -1,3 +1,10 @@
+"""
+Inspect Raw Data Ingestion Inputs.
+This script profiles each raw CSV by shape, data types, and sample records.
+Input source: all CSV files under data/raw/.
+Output generated: no file; ingestion diagnostics are printed to the terminal.
+"""
+
 import pandas as pd
 import os
 

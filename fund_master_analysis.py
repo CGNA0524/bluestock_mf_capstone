@@ -1,3 +1,10 @@
+"""
+Analyze Fund Master Snapshot.
+This script provides quick exploratory statistics for fund houses, categories, and risk groups.
+Input source: data/raw/01_fund_master.csv.
+Output generated: no file; analysis summary is printed to the terminal.
+"""
+
 import pandas as pd
 
 df = pd.read_csv("data/raw/01_fund_master.csv")

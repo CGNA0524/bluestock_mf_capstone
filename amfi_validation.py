@@ -1,3 +1,10 @@
+"""
+Validate AMFI Scheme Code Coverage.
+This script compares AMFI codes between fund master and NAV history datasets.
+Input sources: data/raw/01_fund_master.csv and data/raw/02_nav_history.csv.
+Output generated: no file; validation summary is printed to the terminal.
+"""
+
 import pandas as pd
 
 fund_master = pd.read_csv("data/raw/01_fund_master.csv")

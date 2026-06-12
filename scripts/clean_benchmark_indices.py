@@ -1,3 +1,10 @@
+"""
+Clean Benchmark Indices Dataset.
+This script standardizes benchmark price history and filters invalid close values.
+Input source: data/raw/10_benchmark_indices.csv.
+Output generated: data/processed/benchmark_indices_clean.csv.
+"""
+
 import pandas as pd
 from pathlib import Path
 

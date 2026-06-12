@@ -1,3 +1,10 @@
+"""
+Fetch Live NAV History for Selected Schemes.
+This script retrieves scheme NAV data from MF API endpoints for tracked AMFI codes.
+Input source: https://api.mfapi.in/mf/{amfi_code} for each configured scheme.
+Output generated: data/raw/*_nav.csv files.
+"""
+
 import requests
 import pandas as pd
 

@@ -1,3 +1,10 @@
+"""
+Generate Risk-Based Fund Recommendations.
+This script filters schemes by user-selected risk appetite and ranks by Sharpe ratio.
+Input source: ../data/processed/scheme_performance_clean.csv and console risk input.
+Output generated: no file; top recommendations are printed to the terminal.
+"""
+
 import pandas as pd
 
 funds = pd.read_csv(
